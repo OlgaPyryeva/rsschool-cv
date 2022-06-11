@@ -39,7 +39,7 @@ Skills:
 
 Languages:
 
-- English
+- English level B1
 
 ---
 

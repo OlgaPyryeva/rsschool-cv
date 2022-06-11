@@ -1,3 +1,10 @@
+@font-face {
+    font-family: CharisSIL;
+    src: url("./assets/fonts/CharisSIL-Regular.ttf"),
+         url("./assets/fonts/CharisSIL-Bold.ttf"),
+         url("./assets/fonts/CharisSIL-BoldItalic.ttf"),
+         url("./assets/fonts/CharisSIL-Italic.ttf");
+}
 * {
     box-sizing: border-box;
   }
@@ -11,6 +18,7 @@
     min-height: 100vh;
     margin: 0;
     padding: 0;
+    font-family: CharisSIL, serif;
     background-color: #D3D3D3;
   }
   .header {

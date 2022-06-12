@@ -41,12 +41,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    border-bottom: 1px solid #552c2c;
   }
 
   .user-img {
     /* max-height: 300px; */
     /* height: 100%; */
     border-radius: 5%;
+    box-shadow: 10px 5px 5px #552c2c;
   }
 
   .nav-list {
@@ -68,7 +71,16 @@
   }
 
   .nav-link:hover {
-    color: #4d2323;
+    color: #5a0505;
+    font-weight: 700;
+  }
+
+  .nav-link:visited {
+    color: #552c2c;
+  }
+
+  .nav-link:active {
+    color: #552c2c; 
   }
 
   .main-container {
